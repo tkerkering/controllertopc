@@ -32,9 +32,8 @@ namespace ControllerToPokeOne.Classes
                     sendInputToKeyboard(3);
             }
 
-            if(controller.magnitudeRight != 0)      //rechter Stick wird bewegt beweg mal die Maus mit
+            if(controller.magnitudeRight != 0)
                 MoveCursor(controller.normalizedRX, controller.normalizedRY, controller.normalizedMagnitudeRight);
-
 
             if (controller.padButtons == GamepadButtonFlags.LeftShoulder && oldstate != GamepadButtonFlags.LeftShoulder)
                 inputsimulate.Mouse.LeftButtonDown();
@@ -46,16 +45,10 @@ namespace ControllerToPokeOne.Classes
             else if(oldstate == GamepadButtonFlags.RightShoulder && controller.padButtons != GamepadButtonFlags.RightShoulder)
                 inputsimulate.Mouse.RightButtonUp();
 
-            //if (controller.padButtons == GamepadButtonFlags.RightShoulder)
-            //    inputsimulate.Mouse.RightButtonClick();
-
             if (controller.padButtons == GamepadButtonFlags.LeftThumb && oldstate != GamepadButtonFlags.LeftThumb)
                 inputsimulate.Keyboard.KeyDown(VirtualKeyCode.LSHIFT);
             else if (oldstate == GamepadButtonFlags.LeftThumb && controller.padButtons != GamepadButtonFlags.LeftThumb)
                 inputsimulate.Keyboard.KeyUp(VirtualKeyCode.LSHIFT);
-
-            //if (controller.padButtons == GamepadButtonFlags.A)
-            //    inputsimulate.Keyboard.KeyPress(VirtualKeyCode.SPACE);
 
             if (controller.padButtons == GamepadButtonFlags.A && oldstate != GamepadButtonFlags.A)
                 inputsimulate.Keyboard.KeyDown(VirtualKeyCode.SPACE);
@@ -107,17 +100,7 @@ namespace ControllerToPokeOne.Classes
                 return;
             }
 
-            yinint = yinint * (-1);     //controller ist sonst reversed
-
-            //if (xinint == 1)
-            //    xinint = xinint + 6;    
-            //else if (xinint == -1)
-            //    xinint = xinint - 6;
-
-            //if (yinint == 1)
-            //    yinint = yinint + 6;
-            //else if (yinint == -1)
-            //    yinint = yinint - 6;
+            yinint = yinint * (-1);     //y is reversed, undo it
 
             this.Cursor = new Cursor(Cursor.Current.Handle);
 

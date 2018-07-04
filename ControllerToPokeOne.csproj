@@ -52,7 +52,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\ConvertInput.cs" />
-    <Compile Include="Classes\MouseManipulator.cs" />
     <Compile Include="Classes\XboxController.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
