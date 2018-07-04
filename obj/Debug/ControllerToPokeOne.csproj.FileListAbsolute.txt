@@ -1,0 +1,14 @@
+d:\Bibliotheken\Documents\Visual Studio 2017\Projects\ControllerToPokeOne\bin\Debug\ControllerToPokeOne.exe.config
+d:\Bibliotheken\Documents\Visual Studio 2017\Projects\ControllerToPokeOne\bin\Debug\ControllerToPokeOne.exe
+d:\Bibliotheken\Documents\Visual Studio 2017\Projects\ControllerToPokeOne\bin\Debug\ControllerToPokeOne.pdb
+d:\Bibliotheken\Documents\Visual Studio 2017\Projects\ControllerToPokeOne\obj\Debug\ControllerToPokeOne.csprojResolveAssemblyReference.cache
+d:\Bibliotheken\Documents\Visual Studio 2017\Projects\ControllerToPokeOne\obj\Debug\ControllerToPokeOne.Form_XboxToPokeOne.resources
+d:\Bibliotheken\Documents\Visual Studio 2017\Projects\ControllerToPokeOne\obj\Debug\ControllerToPokeOne.Properties.Resources.resources
+d:\Bibliotheken\Documents\Visual Studio 2017\Projects\ControllerToPokeOne\obj\Debug\ControllerToPokeOne.csproj.GenerateResource.Cache
+d:\Bibliotheken\Documents\Visual Studio 2017\Projects\ControllerToPokeOne\obj\Debug\ControllerToPokeOne.csproj.CoreCompileInputs.cache
+d:\Bibliotheken\Documents\Visual Studio 2017\Projects\ControllerToPokeOne\obj\Debug\ControllerToPokeOne.exe
+d:\Bibliotheken\Documents\Visual Studio 2017\Projects\ControllerToPokeOne\obj\Debug\ControllerToPokeOne.pdb
+d:\Bibliotheken\Documents\Visual Studio 2017\Projects\ControllerToPokeOne\bin\Debug\SlimDX.dll
+d:\Bibliotheken\Documents\Visual Studio 2017\Projects\ControllerToPokeOne\bin\Debug\WindowsInput.dll
+d:\Bibliotheken\Documents\Visual Studio 2017\Projects\ControllerToPokeOne\bin\Debug\WindowsInput.pdb
+d:\Bibliotheken\Documents\Visual Studio 2017\Projects\ControllerToPokeOne\bin\Debug\WindowsInput.xml
